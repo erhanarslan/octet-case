@@ -12,9 +12,9 @@
   
   .card {
     background-color: #fff;
-    border: 1px solid #ddd; /* Border ekledik */
-    border-radius: 8px; /* Yuvarlatılmış köşeler */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
     width: 300px;
     box-sizing: border-box;
@@ -32,8 +32,8 @@
   
   .card-title {
     font-size: 1.5rem;
-    font-weight: bold; /* Başlıkları kalın yapmak için */
-    margin: 0 0 10px 0; /* Başlık ile diğer içerikler arasında boşluk */
+    font-weight: bold; 
+    margin: 0 0 10px 0; 
   }
   
   .card-category,
@@ -43,11 +43,11 @@
   .card-summary {
     font-size: 0.9rem;
     color: #333;
-    margin-bottom: 10px; /* Özellikler arasında boşluk */
+    margin-bottom: 10px;
   }
   
   .card-summary {
-    margin-top: 0; /* Özelliklerin altında boşluk bırakmamak için */
+    margin-top: 0; 
   }
   
   .badge {
