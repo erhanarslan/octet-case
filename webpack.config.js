@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -21,6 +22,13 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/images/[name][ext]',
+        },
+      },
     ],
   },
   plugins: [
@@ -28,9 +36,13 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
+  devtool: 'source-map',
   devServer: {
-    static: './dist',
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
     hot: true,
     port: 3000,
+    historyApiFallback: true,
   },
 };

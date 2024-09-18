@@ -1,21 +1,31 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { login } from './store/authSlice';
 import { Routes, Route } from 'react-router-dom';
-import LoginForm from './pages/LoginForm/LoginForm';
 import MovieList from './pages/MovieList/MovieList';
-import ProtectedRoute from './components/ProtectedRoute';
 import MovieDetail from './pages/MovieDetail/MovieDetail';
+import LoginForm from './pages/LoginForm/LoginForm';
+import NotFound from './components/NotFound';
+import ProtectedRoute from './components/ProtectedRoute';
 
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const isAuth = localStorage.getItem('auth') === 'true';
+    if (isAuth) {
+      dispatch(login());
+    }
+  }, [dispatch]);
   return (
-    <div>
-      <Routes>
+    <Routes>
+      
+      <Route path="/movies" element={<ProtectedRoute><MovieList /></ProtectedRoute>} />
+      <Route path="/movies/:id" element={<ProtectedRoute><MovieDetail /></ProtectedRoute>} />
+      
       <Route path="/" element={<LoginForm />} />
-      <Route element={<ProtectedRoute />}>
-        <Route path="/movies" element={<MovieList />} />
-        <Route path="/movies/:id" element={<MovieDetail />} />
-      </Route>
+      <Route path="*" element={<NotFound />} />
     </Routes>
-    </div>
   );
 };
 

@@ -8,6 +8,7 @@
       "imdb": "86.0",
       "category": "Action, Adventure, Horror",
       "isTvSeries": true,
+      "coverImageUrl": "/assets/images/strangerThings.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -18,6 +19,7 @@
       "imdb": "82.0",
       "category": "Action, Adventure",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/batmanBegins.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -28,6 +30,7 @@
       "imdb": "84.0",
       "category": "Animation, Action, Adventure",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/spiderman.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -38,6 +41,7 @@
       "imdb": "78.0",
       "category": "Action, Drama, History",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/dunkirk.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -48,6 +52,7 @@
       "imdb": "84.0",
       "category": "Action, Adventure, Drama",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/dune.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -58,6 +63,7 @@
       "imdb": "76.0",
       "category": "Action, Adventure, Thriller",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/noTimeToDie.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -68,6 +74,7 @@
       "imdb": "79.0",
       "category": "Action, Adventure, Fantasy",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/shangChi.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -78,6 +85,7 @@
       "imdb": "61.0",
       "category": "Action, Drama, Horror",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/dontBreathe.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -88,6 +96,7 @@
       "imdb": "90.0",
       "category": "Action, Drama, Adventure",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/darknight.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -98,6 +107,7 @@
       "imdb": "81.0",
       "category": "Action, Adventure, Drama",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/rocky.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -108,6 +118,7 @@
       "imdb": "88.0",
       "category": "Action, Drama, Fantasy",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/fightClub.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     },
     {
@@ -118,6 +129,7 @@
       "imdb": "86.0",
       "category": "Action, Drama, Fantasy",
       "isTvSeries": false,
+      "coverImageUrl": "/assets/images/prestige.png",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula arcu eu facilisis blandit. Praesent ultrices, tellus at ultricies dapibus, quam justo consequat arcu, ut mattis augue libero eu ex. Sed vel efficitur lectus, eu posuere orci. Curabitur arcu libero, placerat vel dui non, malesuada ultrices velit. Vestibulum posuere, erat quis dignissim viverra, magna ex tincidunt dui, non facilisis turpis nisi quis nisi. Nunc nec diam tincidunt, porta tellus eget, egestas elit. Aliquam tortor nulla, tincidunt eget lectus vitae, tincidunt feugiat justo. Nam luctus aliquet diam, tincidunt laoreet quam posuere at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis purus nec convallis rhoncus."
     }
   ],

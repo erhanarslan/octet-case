@@ -13,16 +13,14 @@ const movieSlice = createSlice({
     setMovies: (state, action: PayloadAction<Movie[]>) => {
       state.movies = action.payload;
     },
-    toggleFavorite: (state, action: PayloadAction<number>) => {
-      const movieId = action.payload;
-      if (state.favorites.includes(movieId)) {
-        state.favorites = state.favorites.filter((id) => id !== movieId);
-      } else {
-        state.favorites.push(movieId);
-      }
+    addFavorite(state, action: PayloadAction<number>) {
+      state.favorites.push(action.payload);
+    },
+    removeFavorite(state, action: PayloadAction<number>) {
+      state.favorites = state.favorites.filter(id => id !== action.payload);
     },
   },
 });
 
-export const { setMovies, toggleFavorite } = movieSlice.actions;
+export const { setMovies, addFavorite,removeFavorite  } = movieSlice.actions;
 export default movieSlice.reducer;

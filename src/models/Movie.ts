@@ -8,6 +8,7 @@ export interface Movie {
     isTvSeries: boolean;
     isFavorite: boolean;
     summary: string;
+    coverImageUrl:string;
 
   }
 
