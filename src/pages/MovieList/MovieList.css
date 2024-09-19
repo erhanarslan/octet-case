@@ -1,5 +1,5 @@
 .movie-list {
-  padding: 40px 96px 40px 104px
+  padding: 40px 96px 40px 104px;
 }
 
 .header {
@@ -18,7 +18,7 @@
 
 .search-input-wrapper {
   position: relative;
-  width: 60%; 
+  width: 60%;
   max-width: 500px;
 }
 
@@ -29,77 +29,42 @@
   border-radius: 5px;
 }
 
-
 .search-input-wrapper img {
   position: absolute;
-  right: 10px; 
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .favorites {
   position: absolute;
   right: 0;
-  margin-right: 96px; 
+  margin-right: 96px;
 }
 
 .title-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px; 
+  margin-top: 50px;
+  margin-bottom: 44px;
 }
-
-.filter-sort-buttons {
-  display: flex;
-  gap: 20px;
-}
-
-.sort, .filter {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-}
-
-.sort img, .filter img {
-  cursor: pointer;
-}
-
-
-.sort select, .filter select {
-  position: absolute;
-  opacity: 0;
-  pointer-events: auto;
-}
-.notification-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #6366F1;
-
-  border-radius: 50%;
-  position: absolute; /* Noktayı istediğiniz yere konumlandırmak için */
-  top: 5px; /* İstediğiniz konuma göre ayarlayın */
-  right: 5px; /* İstediğiniz konuma göre ayarlayın */
-}
-
 
 .movie-card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
-  margin-top: 100px;
   margin-bottom: 100px;
 }
-.not-found-movie{
+
+.not-found-movie {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
   height: 300px;
-
 }
 
 @media (max-width: 768px) {
@@ -133,7 +98,7 @@
   }
 
   .search-input-wrapper {
-    width: 90%; 
+    width: 90%;
     max-width: 400px;
   }
 }

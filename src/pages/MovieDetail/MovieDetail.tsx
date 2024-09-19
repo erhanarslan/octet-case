@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import { useParams } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import { RootState, AppDispatch } from '../../store';
-import { Movie } from '../../models/Movie';
-import { addFavorite, removeFavorite } from '../../store/movieSlice';
-import './MovieDetail.css';
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { useParams } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { RootState, AppDispatch } from "../../store";
+import { Movie } from "../../models/Movie";
+import { addFavorite, removeFavorite } from "../../store/movieSlice";
+import "./MovieDetail.css";
 
 const MovieDetail = () => {
   const { id } = useParams();
@@ -19,13 +19,14 @@ const MovieDetail = () => {
   useEffect(() => {
     if (!id) return;
 
-    axios.get(`http://localhost:5000/movies/${id}`)
-      .then(response => {
+    axios
+      .get(`http://localhost:5000/movies/${id}`)
+      .then((response) => {
         setMovie(response.data);
         setLoading(false);
       })
-      .catch(error => {
-        setError('Film detayları alınamadı');
+      .catch((error) => {
+        setError("Film detayları alınamadı");
         setLoading(false);
       });
   }, [id]);
@@ -46,29 +47,47 @@ const MovieDetail = () => {
 
   return (
     <div className="movie-detail">
-      <div className="movie-title">
-        {movie.name}
-        <div className="movie-favorite-count favorites">
+      <div className="movie-title-wrapper">
+        <div className="movie-title">{movie.name}</div>
+        <div className="favorites movie-favorite-count">
           Favoriler: {favorites.length}
         </div>
       </div>
 
-      <div className="movie-image">
-        <img src={movie.coverImageUrl} alt={movie.name} />
+      <div className="movie-image-wrapper">
+        <img
+          className="movie-image"
+          src={movie.coverImageUrl}
+          alt={movie.name}
+        />
+        <div className="heart-wrapper-detail">
+          <button
+            className="favorite-button-detail"
+            onClick={handleFavoriteToggle}
+          >
+            {favorites.includes(movie.id) ? (
+              <img src="/assets/images/heart-filled.svg" alt="heart-filled" />
+            ) : (
+              <img src="/assets/images/heart-empty.svg" alt="heart-empty" />
+            )}
+          </button>
+        </div>
       </div>
 
       <p className="movie-summary">{movie.summary}</p>
-      <div className='line'></div>
-      <div className="movie-info">
-        <img className='imdb-logo' src="/assets/images/imdb.png" alt="IMDB Logo" />
+      <div className="line"></div>
+      <div className="movie-detail-imdb">
+        <img className="imdb-logo" src="/assets/images/imdb.png" alt="IMDb" />
+        <span className="imdb-rating">{movie.imdb}/100</span>
+      </div>
+      <div className="movie-card-category">
+        <p>{movie.category}</p>
+      </div>
+      <div className="movie-card-category">
         <p>
-          <strong>{movie.imdb}</strong> | {movie.category} | {movie.country} / {movie.year}
+          {movie.country} {movie.year}
         </p>
       </div>
-
-      <button className="favorite-toggle-button" onClick={handleFavoriteToggle}>
-        {favorites.includes(movie.id) ? 'Favorilerden Kaldır' : 'Favorilere Ekle'}
-      </button>
     </div>
   );
 };

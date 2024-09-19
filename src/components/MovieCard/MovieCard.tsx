@@ -20,7 +20,7 @@ const MovieCard = ({ movie, isFavorite, onFavoriteToggle }: CardProps) => {
           {isTvSeries && <span className="badge">TV SERIES</span>}
           <div className="heart-wrapper">
             <button
-              className='favorite-button'
+              className="favorite-button"
               onClick={() => onFavoriteToggle(movie.id)}
             >
               {isFavorite ? (

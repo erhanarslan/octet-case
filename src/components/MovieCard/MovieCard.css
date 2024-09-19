@@ -1,105 +1,115 @@
 .movie-card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    width: 250px;
-    height: 537px;
-    background: #fff;
-    position: relative;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 250px;
+  height: 537px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
 }
 
 .movie-card-image-wrapper {
-    position: relative;
-    width: 250px;
-    height: 370px;
+  position: relative;
+  width: 250px;
+  height: 370px;
 }
 
 .movie-card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .badge {
-    position: absolute;
-    top: 16px; 
-    left: 16px; 
-    background: rgba(243, 244, 246, 0.5);
-    border-radius: 12px;
-    color: #111827; 
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 3px 8px; 
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(243, 244, 246, 0.5);
+  border-radius: 12px;
+  color: #111827;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
 }
 .heart-wrapper {
-    
-    position: absolute;
-    top: 16px;  
-    right: 16px; 
-    width: 30px;
-    height: 30px;
-    background-color: rgba(243, 244, 246, 0.5);
-    border-radius: 50%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* backdrop-filter: blur(1px);  */
-    z-index: 1; 
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(243, 244, 246, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
+  z-index: 1;
 }
 
 .favorite-button {
-    background: none; 
-    border: none; 
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-    height: 100%; 
-    padding: 0; 
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
 
-
 .movie-card-body {
-    font-family: 'DM Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100% - 370px); 
-    cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 370px);
+  cursor: pointer;
 }
 
 .movie-card-country {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    color: #9CA3AF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9ca3af;
 }
-    .movie-card-title {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #111827; 
-
+.movie-card-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
 }
-    .movie-card-imdb {
-    width: 101px;
-    height: 17px;
-    display: flex;
-    gap: 8px;
-}
-
-    .imdb-logo {
-    width: 35px;
-    height: 17px;
-}
-.movie-card-category{
-    font-size: 12px;
-    font-weight: 700;
-    color: #9CA3AF;
+.movie-card-imdb {
+  width: 101px;
+  height: 17px;
+  display: flex;
+  gap: 8px;
 }
 
+.imdb-logo {
+  width: 35px;
+  height: 17px;
+}
+.movie-card-category {
+  font-size: 12px;
+  font-weight: 700;
+  color: #9ca3af;
+}
+
+.movie-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  pointer-events: none;
+}

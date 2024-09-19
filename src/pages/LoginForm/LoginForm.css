@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* Arka planı beyaz yaptık */
+  background-color: #ffffff; 
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 40px;
-  background-color: #ffffff; /* Arka plan beyaz */
+  background-color: #ffffff; 
 }
 
 .app-header {
@@ -44,11 +44,11 @@ body {
 }
 
 .form-group {
-  margin-bottom: 32px; /* E-posta ve şifre alanları arası 32px boşluk */
+  margin-bottom: 32px; 
 }
 
 .form-group + .form-group {
-  margin-bottom: 64px; /* Şifre alanı ile giriş butonu arası 64px boşluk */
+  margin-bottom: 64px;
 }
 
 .form-input {
@@ -64,9 +64,9 @@ body {
 .login-button {
   width: 100%;
   height: 86px;
-  background-color: #fff; /* Buton arka planını beyaz yap */
-  border: 2px solid #007bff; /* Mavi kenarlık */
-  color: #007bff; /* Yazı rengi mavi */
+  background-color: #fff; 
+  border: 2px solid #007bff; 
+  color: #007bff; 
   font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
